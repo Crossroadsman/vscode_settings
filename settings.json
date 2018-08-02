@@ -3,10 +3,16 @@
         80
     ],
     "workbench.colorTheme": "Visual Studio Dark",
-    "python.pythonPath": "/usr/local/opt/python/bin/python3.6",
+    //"python.pythonPath": "/usr/local/opt/python/bin/python3.6",
 
     // language-specific settings
     "[html]": {
         "editor.tabSize": 2,
     },
+
+    // temporary settings
+    // - set python path to the venv
+    //   (need to comment out the top reference to path)
+    "python.pythonPath": "/Users/person/src/proj/proj_env/bin/python3",
+
 }
