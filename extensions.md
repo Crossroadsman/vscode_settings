@@ -20,14 +20,30 @@ naumovs.theme-oceanicnext
 
 Oceanic Next theme for VS Code
 
-Syntax Highlighting
--------------------
+Language-Specific
+-----------------
+### Python ###
+ms-python.python
+
+Linting and more for Python
+
+
 ### Babel JavaScript ###
 mgmcdermott.vscode-language-babel
 
 Syntax highlighting for ES201x, React JSX, Flow and GraphQL
 
-Linting
--------
-### Python ###
-ms-python.python
+
+### Markdown ###
+
+#### markdownlint ####
+davidanson.vscode-markdownlint
+
+Markdown/CommonMark linting and style checking
+
+#### Markdown TOC ####
+https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc
+
+Generated TOCs for Markdown files (right-click to insert/update)
+
+See the webpage for custom settings (global in workspace settings, per-file in the HTML comment)
