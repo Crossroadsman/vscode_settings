@@ -1,8 +1,9 @@
 {
+    // VS Code Core Settings
+    // =====================
     "editor.rulers": [
         80
     ],
-    "workbench.colorTheme": "Visual Studio Dark",
     //"python.pythonPath": "/usr/local/opt/python/bin/python3.6",
 
     // language-specific settings
@@ -14,5 +15,39 @@
     // - set python path to the venv
     //   (need to comment out the top reference to path)
     "python.pythonPath": "/Users/person/src/proj/proj_env/bin/python3",
+    
+    
+    // Extensions Settings
+    // ===================
+    
+    // Theme By Language Settings
+    // --------------------------
+
+    // This was set before installing TBL but is used by TBL at least until a default
+    // is set using `set default theme`, at which point it sets the "*" value.
+    "workbench.colorTheme": "Visual Studio Dark",
+    
+    // This might have been set by 'Theme By Language'
+    "workbench.startupEditor": "welcomePage",
+    
+    "theme-by-language.themes": {
+        "*": "Visual Studio Dark",
+        "javascript": "Oceanic Next (dimmed bg)",
+        "html": "Oceanic Next (dimmed bg)",
+        "python": "Visual Studio Dark",
+        "css": "Oceanic Next (dimmed bg)",
+        "json": "Oceanic Next (dimmed bg)",
+        "markdown": "Solarized Light",
+        "plaintext": "Quiet Light"
+    },
+
+    // Markdownlint Settings
+    // ---------------------
+
+    // for settings syntax see:
+    // https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+    "markdownlint.config": {
+        "MD003": { "style": "setext_with_atx" },
+    }
 
 }
