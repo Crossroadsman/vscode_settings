@@ -1,0 +1,3 @@
+# Example of a `.gitattributes` file which reclassifies `.json` files as JSON 
+# with comments:
+*.json linguist-language=jsonc
