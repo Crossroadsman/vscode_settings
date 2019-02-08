@@ -1,5 +1,7 @@
 # Example of a `.gitattributes` file which reclassifies `.json` files as JSON 
 # with comments:
 # (note see: https://github.com/github/linguist/issues/2751 for discussion
-# of syntax for marking languages with whitespace in name)
-*.json linguist-language=JSON with Comments
+# of syntax for marking languages with whitespace in name; and
+# https://gist.github.com/Crossroadsman/5487ae9fadc5b9164bdb1a62fdfd063f
+# for testing with GFMD)
+*.json linguist-language=JSON-with-Comments
