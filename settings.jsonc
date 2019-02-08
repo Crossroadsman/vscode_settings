@@ -1,4 +1,7 @@
 {
+    // Note: this file should actually be called `settings.json` but it's saved 
+    // as `settings.jsonc` in the repo to keep linguist from freaking out.
+
     // VS Code Core Settings
     // =====================
     "editor.rulers": [
@@ -23,8 +26,9 @@
     // Theme By Language Settings
     // --------------------------
 
-    // This was set before installing TBL but is used by TBL at least until a default
-    // is set using `set default theme`, at which point it sets the "*" value.
+    // This was set before installing TBL but is used by TBL at least until 
+    // a default is set using `set default theme`, at which point it sets
+    // the "*" value.
     "workbench.colorTheme": "Visual Studio Dark",
     
     // This might have been set by 'Theme By Language'
