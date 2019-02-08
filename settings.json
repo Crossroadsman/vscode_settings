@@ -46,8 +46,11 @@
 
     // for settings syntax see:
     // https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+    // and
+    // https://github.com/DavidAnson/markdownlint/blob/master/schema/markdownlint-config-schema.json
     "markdownlint.config": {
         "MD003": { "style": "setext_with_atx_closed" },
+        "MD012": { "maximum": 2},
     }
 
 }
