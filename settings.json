@@ -1,7 +1,4 @@
 {
-    // Note: this file should actually be called `settings.json` but it's saved 
-    // as `settings.jsonc` in the repo to keep linguist from freaking out.
-
     // VS Code Core Settings
     // =====================
     "editor.rulers": [
