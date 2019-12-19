@@ -1,16 +1,16 @@
 Visual Studio Code Settings
 ===========================
 
-[Extensions][this_01]
-------------
-
-`extensions.md` contains a list of suggested extensions.
-
-
-[Settings][this_01]
+Extensions
 ----------
 
-`settings.json` is a JSONC-formatted list of user settings.
+[`extensions.md`][this_01] contains a list of suggested extensions.
+
+
+Settings
+--------
+
+[`settings.json`][this_02] is a JSONC-formatted list of user settings.
 
 
 
