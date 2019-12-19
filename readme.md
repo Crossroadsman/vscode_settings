@@ -15,4 +15,4 @@ Settings
 
 
 [this_01]: https://github.com/Crossroadsman/vscode_settings/blob/master/extensions.md
-[this_01]: https://github.com/Crossroadsman/vscode_settings/blob/master/settings.json
+[this_02]: https://github.com/Crossroadsman/vscode_settings/blob/master/settings.json
