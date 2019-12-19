@@ -1,8 +1,10 @@
 {
     // VS Code Core Settings
     // =====================
+    // Need 72 when using Python
     "editor.rulers": [
-        80
+        72,
+        80,
     ],
     //"python.pythonPath": "/usr/local/opt/python/bin/python3.6",
 
