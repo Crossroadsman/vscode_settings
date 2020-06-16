@@ -54,6 +54,11 @@
     "markdownlint.config": {
         "MD003": { "style": "setext_with_atx_closed" },
         "MD012": { "maximum": 2},
+        "no-inline-html": {
+            "allowed_elements": [
+                "blockquote",
+            ]
+        },
     }
 
 }
